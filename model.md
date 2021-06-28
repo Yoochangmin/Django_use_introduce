@@ -28,11 +28,18 @@ class Blog(models.Model):
 
 ```
 
-python manage.py createsuperuser
+python manage.py createsuperuser : admin계정 만들기
 
 ```admin.py
 from .models import Blog
-
+#.models.py에 Blog를 등록했다
 admin.site.reister(Blog)
+#블로그라는 테이블을 adin 사이트에 등록
+```
+
+```
+    def __str__(self):
+        return self.writer
+        #title 내용을 이름으로
 ```
 

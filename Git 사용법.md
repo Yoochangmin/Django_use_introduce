@@ -16,6 +16,7 @@ git log //commit 한 내용 확인 q
 git branch -M main // master 브랜치 이름을 main으로
 git branch "이름" // "이름" 브랜치 생성
 git checkout 이름 // "이름" 브랜치로 이동
+git push origin --delete 브랜치명 // 브랜치 삭제
 ```
 
 ```
